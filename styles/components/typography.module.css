@@ -1,0 +1,73 @@
+.root {
+  @apply font-poppins text-base font-normal max-md:text-sm text-black;
+}
+
+.pointer {
+  @apply cursor-pointer;
+}
+
+/* size */
+.sm {
+  @apply !text-sm;
+}
+
+.xs {
+  @apply !text-xs;
+}
+
+.lg {
+  @apply !text-lg;
+}
+
+.xl {
+  @apply !text-xl;
+}
+
+.H1 {
+  @apply text-H1;
+}
+
+.H2 {
+  @apply text-H2 max-md:text-H3;
+}
+
+.H3 {
+  @apply text-H3 max-md:text-H4;
+}
+
+.H4 {
+  @apply text-H4;
+}
+
+.H5 {
+  @apply text-H5;
+}
+/* color */
+.white {
+  @apply text-white;
+}
+
+.blue {
+  @apply text-blue_text;
+}
+
+.grey {
+  @apply text-gray-300
+}
+
+/* weight */
+.light {
+  @apply !font-light;
+}
+
+.medium {
+  @apply !font-medium;
+}
+
+.bold {
+  @apply !font-bold;
+}
+
+.upperCase {
+  @apply uppercase
+}

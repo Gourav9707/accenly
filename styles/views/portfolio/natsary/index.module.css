@@ -1,0 +1,102 @@
+.btn {
+  @apply flex justify-center items-center gap-3 my-3 w-fit p-2 cursor-pointer;
+}
+
+.hide {
+  @apply !hidden;
+}
+
+.root {
+  @apply max-w-xl w-full mx-auto;
+}
+
+.box {
+  @apply my-10 max-md:my-4 box-border w-full;
+}
+
+.info p {
+  @apply my-6;
+}
+
+.clientBox {
+  @apply flex justify-between mt-10;
+}
+
+.child {
+  @apply basis-1/2 box-border;
+}
+
+.clientBox .child:nth-child(2) {
+  @apply flex flex-col justify-between;
+}
+
+.flexCol {
+  @apply flex flex-col gap-1;
+}
+
+.lowerBanner {
+  @apply bg-brand h-fit rounded-xl flex px-10 py-12 justify-between items-center max-md:flex-col-reverse max-md:gap-4;
+}
+
+.lowerBanner div {
+  @apply max-w-[420px];
+}
+
+.lowerBanner div p:nth-child(2) {
+  @apply my-5;
+}
+
+.lowerBanner button {
+  @apply uppercase;
+}
+
+.moreProjects {
+  @apply border-t border-blue-700 max-w-7xl w-full my-14 box-border py-14 max-md:py-8 max-md:my-8;
+}
+
+.flexBox {
+  @apply justify-center flex items-center box-border mt-12 gap-4 max-lg:flex-col;
+}
+
+.projects {
+  @apply w-fit h-fit rounded-xl relative cursor-pointer;
+}
+
+.cardHighlight {
+  @apply absolute bottom-[16px] left-[16px];
+}
+
+.cardHighlight div:first-child {
+  @apply mb-2;
+}
+
+.whiteBg {
+  @apply bg-white rounded-full px-3 py-2 w-fit max-md:py-1 max-md:px-2;
+}
+.dummy {
+  @apply h-[416px] w-[570px] max-sm:w-[340px] max-sm:h-[380px] bg-slate-400 rounded-lg;
+}
+
+.gallery {
+  @apply flex justify-between gap-3 max-sm:gap-3 max-lg:flex-col max-w-6xl mx-auto box-border;
+}
+
+.gallery section {
+  @apply basis-2/5 grow max-md:w-full;
+}
+
+.pics {
+  @apply flex justify-center gap-1 flex-wrap;
+}
+
+.vid iframe {
+  @apply rounded-lg;
+}
+
+.pics img {
+  @apply rounded-lg grow max-w-[49%];
+}
+
+.singlePic {
+  @apply !max-w-[100%];
+}

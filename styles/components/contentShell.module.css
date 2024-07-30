@@ -1,0 +1,7 @@
+.root {
+  @apply box-border max-sm:px-0 max-sm:pt-16 h-full pt-20;
+}
+
+.content {
+  @apply box-border max-w-[1280px] max-md:max-w-[100vw] mx-auto px-3;
+}

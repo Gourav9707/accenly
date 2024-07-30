@@ -1,0 +1,67 @@
+.banner {
+  @apply bg-black text-center py-16 max-md:px-4;
+}
+
+.banner p:first-child {
+  @apply mb-7;
+}
+
+.banner p:last-child {
+  @apply max-w-lg mx-auto;
+}
+
+.lowerBanner {
+  @apply bg-brand h-fit rounded-xl flex px-10 py-12 justify-between items-center max-md:flex-col-reverse max-md:gap-4;
+}
+
+.lowerBanner div {
+  @apply max-w-[420px];
+}
+
+.lowerBanner div p:nth-child(2) {
+  @apply my-5;
+}
+
+.box {
+  @apply box-border my-8;
+}
+
+.lowerBanner button {
+  @apply uppercase;
+}
+
+.flexBox {
+  @apply flex justify-between items-center max-md:flex-col gap-3 py-4;
+}
+
+.flexBox div {
+  @apply max-w-[480px];
+}
+
+.flexBox div p:first-child {
+  @apply mb-4;
+}
+
+.bullet {
+  @apply flex justify-between items-center gap-6;
+}
+
+.accordioBox {
+  @apply my-5 border-t border-blue-700;
+}
+
+.accordionContentBody {
+  @apply flex justify-between items-center max-md:flex-col gap-3;
+}
+
+.btnBox {
+  @apply flex justify-center items-center my-5;
+}
+
+.accordionInfo {
+  @apply max-w-[520px] flex flex-col gap-6;
+}
+
+.bulletBox {
+  @apply flex gap-5;
+}

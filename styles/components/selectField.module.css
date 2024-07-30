@@ -1,0 +1,63 @@
+.inputField {
+  @apply appearance-none border-none cursor-pointer bg-transparent py-[10px] px-[14px] text-[0.95rem] max-md:text-sm font-normal w-full h-11 outline-none grow !font-poppins text-black rounded-lg max-sm:rounded-md;
+}
+
+.inputField option {
+  @apply font-poppins text-sm max-md:text-xs text-black rounded-none !p-0 !m-0 !appearance-none;
+}
+
+.main {
+  @apply box-border flex justify-center items-center h-11;
+}
+
+.secondaryView {
+  @apply flex-row-reverse;
+}
+
+.inputBox {
+  @apply block my-2 grow max-md:my-3;
+}
+
+.label {
+  @apply text-sm text-black font-medium mb-1;
+}
+
+.inputContainer {
+  @apply box-border flex justify-center items-center grow font-poppins relative border border-transparent border-brand;
+}
+
+.iconContainer {
+  @apply flex justify-center items-center absolute right-0
+}
+
+.arrow {
+ @apply mr-[14px]
+}
+
+.leftRound {
+  @apply rounded-l-lg max-sm:rounded-l-md
+}
+
+.rightRound {
+  @apply rounded-r-lg max-sm:rounded-r-md
+}
+
+.fullRound {
+  @apply rounded-lg max-sm:rounded-md
+}
+
+.action {
+  @apply h-11;
+}
+
+.icon {
+  @apply mx-0.5;
+}
+
+.hide {
+  @apply !hidden;
+}
+
+.margin-y-disable {
+  @apply !my-0
+}

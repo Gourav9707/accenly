@@ -1,0 +1,15 @@
+.list {
+  @apply list-disc box-border pl-5 my-2;
+}
+
+.list li {
+  @apply my-1;
+}
+
+.faqContents {
+  @apply border border-blue_text rounded-md box-border mb-4;
+}
+
+.center {
+  @apply flex justify-center items-center my-8;
+}

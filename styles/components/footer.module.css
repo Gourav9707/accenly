@@ -1,0 +1,59 @@
+.root {
+  @apply box-border min-h-fit bg-black;
+}
+
+.flexBox {
+  @apply flex items-center gap-2 break-words flex-wrap
+}
+
+.flexBox p {
+  @apply !pb-0;
+}
+
+.body {
+  @apply box-border mx-auto py-12 max-w-[1280px] w-full  max-lg:max-w-screen-sm flex justify-between gap-4 max-lg:flex-col max-lg:justify-center max-lg:px-3;
+}
+
+.body section:first-child {
+  @apply box-border basis-[35%] max-lg:basis-full;
+}
+
+.body section:last-child {
+  @apply box-border;
+}
+
+.body section {
+  @apply box-border grow;
+}
+
+.logo {
+  @apply flex items-center gap-2 cursor-pointer pb-5;
+}
+
+.info p {
+  @apply  max-lg:text-left;
+}
+
+.box {
+  @apply box-border max-lg:text-center;
+}
+
+.title {
+  @apply mb-6
+}
+
+.menu p{
+  @apply mb-3 hover:underline
+}
+
+.imgMenu {
+  @apply flex gap-2 flex-wrap items-center justify-center max-w-[110px] max-lg:max-w-full;
+}
+
+.imgMenu img {
+  @apply cursor-pointer
+}
+
+.rights {
+  @apply text-center border-t border-white py-4 max-w-[1280px] mx-auto
+}

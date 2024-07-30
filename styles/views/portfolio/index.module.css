@@ -1,0 +1,87 @@
+.banner {
+  @apply bg-black text-center py-16 max-md:px-4;
+}
+
+.banner p:first-child {
+  @apply mb-7;
+}
+
+.banner p:nth-child(2) {
+  @apply max-w-lg mx-auto mb-2;
+}
+
+.banner p:last-child {
+  @apply max-w-lg mx-auto;
+}
+
+.box {
+  @apply mt-10 mb-10 box-border w-full max-md:mt-16 max-md:mb-8;
+}
+
+.select {
+  @apply hidden max-md:block;
+}
+
+.nav {
+  @apply flex justify-evenly items-center w-[70%] mx-auto max-md:hidden;
+}
+
+.menu {
+  @apply text-center hover:cursor-pointer relative;
+}
+
+.bubble {
+  @apply absolute right-[-6px] top-[-10px];
+}
+
+.projectBanner {
+  @apply h-[656px] max-md:h-[410px] rounded-lg relative bg-contain bg-no-repeat bg-[url(/images/portfolio/natsary.png)] cursor-pointer;
+  background-size: 100% 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.whiteBg {
+  @apply bg-white rounded-full px-3 py-2 w-fit max-md:py-1 max-md:px-2;
+}
+
+.dummy {
+  @apply h-[416px] w-[570px] max-sm:w-[340px] max-sm:h-[380px] bg-slate-400 rounded-lg mt-10;
+}
+
+.projectContainer {
+  @apply flex justify-evenly flex-wrap gap-4;
+}
+
+.projectContainer section {
+  @apply w-fit h-fit rounded-xl relative cursor-pointer;
+}
+
+.cardHighlight {
+  @apply absolute bottom-[16px] left-[16px];
+}
+
+.cardHighlight div:first-child {
+  @apply mb-2;
+}
+
+.lowerBanner {
+  @apply bg-brand h-fit rounded-xl flex px-10 py-12 justify-between items-center max-md:flex-col-reverse max-md:gap-4;
+}
+
+.lowerBanner div {
+  @apply max-w-[420px];
+}
+
+.lowerBanner div p:nth-child(2) {
+  @apply my-5;
+}
+
+.lowerBanner button {
+  @apply uppercase;
+}
+
+.hide {
+  @apply !hidden;
+}

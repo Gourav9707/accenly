@@ -1,0 +1,31 @@
+.box {
+  @apply box-border flex items-center justify-between max-md:flex-col flex-wrap;
+}
+
+.field {
+  @apply w-[49%] max-md:w-[100%];
+}
+
+.box .field:last-child {
+  @apply w-[100%];
+}
+
+.countryCode {
+  @apply flex justify-center items-center gap-1 w-10;
+}
+
+.flexBox {
+  @apply flex justify-between items-center mt-4 box-border max-md:flex-col gap-4;
+}
+
+.flexBox div {
+  @apply flex items-center gap-2;
+}
+
+.flexBox div img {
+  @apply cursor-pointer;
+}
+
+.flexBox div span {
+  @apply text-brand hover:cursor-pointer underline;
+}

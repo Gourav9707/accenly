@@ -1,0 +1,39 @@
+.root {
+  @apply fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-black w-full;
+}
+
+.show {
+  @apply !block !translate-x-0;
+}
+
+.logo {
+  @apply flex justify-center items-center gap-1;
+}
+
+.head {
+  @apply flex justify-between items-center
+}
+
+.body {
+  @apply mt-3
+}
+
+.options {
+  @apply py-3 border-b border-white
+}
+
+.btn {
+  @apply uppercase w-full my-5 bg-transparent border border-white rounded text-white py-2 font-light
+}
+
+.info p {
+  @apply my-3
+}
+
+.flexBox {
+  @apply flex justify-between items-center my-5
+}
+
+.flexBox p{
+  @apply underline
+}

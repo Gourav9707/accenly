@@ -1,0 +1,39 @@
+.accordion {
+  @apply overflow-hidden cursor-pointer shadow-sm relative font-poppins;
+}
+
+.bottomBorder {
+  @apply border-b border-blue_text;
+}
+
+.accordionContent {
+  @apply max-h-0 transition-all rounded-b;
+}
+
+.accordionLabel {
+  @apply flex items-center w-full px-5 max-md:px-2 text-sm max-sm:text-xs rounded py-8 max-md:py-6;
+}
+
+.accordionLabel p {
+  @apply w-[calc(100%_-_40px)]
+}
+
+.icon {
+  @apply absolute right-4;
+}
+
+.accordionChecked {
+  @apply !max-h-screen overflow-auto block px-5 pb-5;
+}
+
+.accordionLabelChecked {
+  @apply !rounded-b-none;
+}
+
+.accordionIcon {
+  @apply rotate-180;
+}
+
+.hide {
+  @apply !hidden
+}

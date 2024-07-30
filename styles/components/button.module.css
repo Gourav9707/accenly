@@ -1,0 +1,26 @@
+.hollow {
+  @apply border border-primaryDark rounded-md text-primaryDark px-8 py-2 text-Subtitle_Text rounded-lg;
+}
+
+.hollow:hover {
+  @apply text-white bg-primaryDark;
+}
+
+.hollow:active {
+  @apply bg-brand;
+}
+
+.solid {
+  @apply rounded-md text-white px-8 py-3 text-Text_Small rounded-lg bg-brand;
+  box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.4);
+}
+
+.whiteBg {
+  @apply !bg-white !text-black;
+}
+
+.root {
+  @apply disabled:opacity-75
+}

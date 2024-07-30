@@ -1,0 +1,15 @@
+.snackbarv2 {
+  @apply animate-fade-in-out hidden max-w-xs left-0 right-0 mx-auto text-white font-light text-center rounded-md p-2 fixed z-[100] top-20;
+}
+
+.show {
+  @apply !block;
+}
+
+.err {
+  @apply bg-buttonRed;
+}
+
+.success {
+  @apply bg-buttonGreen;
+}

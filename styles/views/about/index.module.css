@@ -1,0 +1,73 @@
+.banner {
+  @apply bg-black text-center py-16 max-md:px-4;
+}
+
+.banner p:first-child {
+  @apply mb-7;
+}
+
+.banner p:last-child {
+  @apply max-w-lg mx-auto;
+}
+
+.banner p:nth-child(2){
+  @apply max-w-lg mx-auto mb-2;
+}
+
+.box {
+  @apply mt-20 mb-10 box-border w-full max-md:mt-16 max-md:mb-8;
+}
+
+.borderY {
+  @apply border-y border-blue_text py-16;
+}
+
+.center {
+  @apply mx-auto max-w-xl;
+}
+
+.paraMargin p,
+.paraMargin img,
+.paraMargin iframe {
+  @apply mb-8 max-md:mb-4;
+}
+
+.flexView {
+  @apply flex justify-center items-center max-md:flex-col;
+}
+
+.content1 {
+  @apply w-[50%] border border-blue_text h-[176px] rounded-tl-md rounded-bl-md max-md:w-full max-md:rounded-bl-none max-md:rounded-tr-md p-10 max-md:p-5 flex items-center gap-8;
+}
+
+.content2 {
+  @apply w-[50%] border border-blue_text bg-blue_light h-[176px] rounded-tr-md rounded-br-md max-md:w-full max-md:rounded-tr-none max-md:rounded-bl-md p-10 max-md:p-5 flex items-center gap-8;
+}
+
+.section5 p:nth-child(2) {
+  @apply my-10;
+}
+
+.projects {
+  @apply flex justify-evenly items-center pb-12 flex-wrap gap-4;
+}
+
+.footerBanner {
+  @apply bg-blue_light relative py-16 max-md:pt-20 box-border;
+}
+
+.gift {
+  @apply absolute top-[-72px] left-[5%]
+}
+
+.fBody {
+  @apply w-[1280px] max-md:w-screen px-2 mx-auto  flex justify-between items-center max-md:flex-col box-border;
+}
+
+.fBody div:nth-child(1),.fBody div:nth-child(2) {
+  @apply max-md:mb-10
+}
+
+.fBody div:first-child p:nth-child(2) {
+  @apply my-6 break-words;
+}

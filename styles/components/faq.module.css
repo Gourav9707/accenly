@@ -1,0 +1,31 @@
+.list {
+  @apply list-disc box-border pl-5 my-2;
+}
+
+.list li {
+  @apply my-1;
+}
+
+.faqContents {
+  @apply border border-blue_text rounded-md box-border mb-4;
+}
+
+.center {
+  @apply flex justify-center items-center;
+}
+
+.faqContainer {
+    @apply flex max-md:flex-col box-border;
+  }
+  
+  .faqContainer .content {
+    @apply w-[50%] max-md:w-[100%];
+  }
+  
+  .faqContainer .content:first-child p:last-child {
+    @apply underline
+  }
+  
+  .faqContainer .content:first-child p {
+    @apply my-3;
+  }

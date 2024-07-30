@@ -1,0 +1,76 @@
+.banner {
+  @apply bg-black text-center py-16 max-md:px-4;
+}
+
+.banner p:first-child {
+  @apply mb-7;
+}
+
+.banner p:nth-child(2) {
+  @apply max-w-lg mx-auto mb-2;
+}
+
+.banner p:last-child {
+  @apply max-w-lg mx-auto;
+}
+
+.bannerV2 {
+  @apply bg-bg_grey h-[420px] max-md:h-fit w-full flex items-center max-md:flex-col mb-[140px] max-md:mb-16 max-md:gap-10 relative;
+}
+
+.mapContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.imgContainer {
+  @apply w-[50%] h-full max-md:w-full flex items-center justify-center max-md:h-48;
+}
+
+.formContainer {
+  @apply w-[50%] h-full max-md:w-full absolute top-[20px] max-md:static;
+}
+
+.form {
+  @apply bg-white rounded-md absolute max-md:static left-[20%] bottom-[-120px] px-11 py-7 max-md:p-6 max-md:mt-4 max-md:mx-auto box-border flex items-center justify-between flex-col flex-wrap w-fit shadow-[0px_20px_48px_#08080826];
+}
+
+.form div:last-child p {
+  @apply underline;
+}
+
+.action {
+  @apply flex items-center gap-2 my-4 border-b border-gray-300 pb-4 box-border;
+}
+
+.field {
+  @apply w-[390px] max-md:w-full;
+}
+
+.countryCode {
+  @apply flex justify-center items-center gap-1 w-10;
+}
+
+.box {
+  @apply mt-60 mb-10 box-border w-full max-md:mt-16 max-md:mb-8;
+}
+
+.cardContainer {
+  @apply w-full flex items-center box-border border border-blue_text rounded-md max-md:flex-col;
+}
+
+.cardContainer .card:nth-child(2) {
+  @apply md:border-x border-blue_text max-md:border-y;
+}
+
+.title {
+  @apply flex gap-3 mb-4 items-center;
+}
+
+.title p {
+  @apply uppercase;
+}
+
+.card {
+  @apply w-[33.33%] max-md:w-full grow hover:bg-blue_light p-7 box-border;
+}

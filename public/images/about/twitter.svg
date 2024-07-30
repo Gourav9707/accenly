@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2158" data-name="Rectangle 2158" width="22" height="22" transform="translate(97 593)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Twitter" transform="translate(-1366 -4280)">
+    <g id="Ellipse_1245" data-name="Ellipse 1245" transform="translate(1366 4280)" fill="#fff" stroke="#fff" stroke-width="1">
+      <circle cx="20" cy="20" r="20" stroke="none"/>
+      <circle cx="20" cy="20" r="19.5" fill="none"/>
+    </g>
+    <g id="twitter-2" data-name="twitter" transform="translate(1278 3696)" clip-path="url(#clip-path)">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(97 593)">
+        <g id="invisible_box" data-name="invisible box">
+          <rect id="Rectangle_2166" data-name="Rectangle 2166" width="22" height="22" fill="none"/>
+          <rect id="Rectangle_2167" data-name="Rectangle 2167" width="22" height="22" fill="none"/>
+        </g>
+        <g id="icons_Q2" data-name="icons Q2">
+          <path id="Path_1180" data-name="Path 1180" d="M21.083,4.675a8.387,8.387,0,0,1-2.383.687,4.308,4.308,0,0,0,1.833-2.292,10.633,10.633,0,0,1-2.612,1.008,4.171,4.171,0,0,0-7.2,2.8,3.483,3.483,0,0,0,.137.963A11.825,11.825,0,0,1,2.337,3.529a3.9,3.9,0,0,0-.6,2.062A4.079,4.079,0,0,0,3.621,9.029a3.713,3.713,0,0,1-1.879-.5h0a4.079,4.079,0,0,0,3.3,4.079,3.942,3.942,0,0,1-1.1.183L3.163,12.7a4.217,4.217,0,0,0,3.9,2.888,8.342,8.342,0,0,1-5.133,1.742H.917A11.5,11.5,0,0,0,7.242,19.2,11.713,11.713,0,0,0,19.021,7.425v-.6a8.388,8.388,0,0,0,2.063-2.154Z" fill="#376eef"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

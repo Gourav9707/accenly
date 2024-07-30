@@ -1,0 +1,7 @@
+.mainContainer {
+  @apply flex flex-col min-h-screen box-border overflow-y-auto;
+}
+
+.children {
+  @apply flex-1;
+}
